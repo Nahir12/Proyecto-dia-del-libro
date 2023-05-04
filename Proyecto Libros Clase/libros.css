@@ -1,0 +1,77 @@
+
+body{
+    background-image:url(libreria2.jpg);
+    background-size:cover;
+    color:rgb(22, 32, 176);
+    text-align: center;
+    
+}
+ul{ 
+  
+    background-color: rgb(144, 225, 235);
+  
+    justify-content: center; 
+    align-items: center; 
+}
+h1{
+    color:white;
+    word-spacing:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+h2{
+    color:rgb(199, 10, 10);
+    word-spacing:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+}
+h3{
+    animation: h3 5s infinite;
+    font-size: 40px;
+}
+
+@keyframes h3 {
+  0% {
+    color: red;
+  }
+  25% {
+    color: blue;
+  }
+  50% {
+    color: green;
+  }
+  75% {
+    color: orange;
+  }
+  100% {
+    color: purple;
+  }
+
+}
+
+p{
+    background-color:rgb(204, 228, 162) ; 
+    background-position: center;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+img{
+    width: auto;
+    max-width: 150px;
+    min-width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+
+}
+div{
+    display: inline-block;
+    max-width: 20%;
+    min-width:10% ;
+    
+}
+footer{
+    background-color: gray;
+    font-size: 30px;
+}

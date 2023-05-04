@@ -1,0 +1,126 @@
+
+  .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+    background-color: #fff;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  }
+  
+  .sub-menu li {
+    margin: 50px;
+  }
+  
+  .sub-menu a {
+    padding: 10px;
+    display: block;
+  }
+  
+  .sub-menu a:hover {
+    background-color: #f6f6f6;
+  }
+  .sub-menu {
+    display: none;
+    position: absolute;
+    background-color: rgb(224, 131, 131);
+  }
+
+  li:hover .sub-menu {
+    display: block;
+  }
+
+
+  
+
+  body {
+    font-family: sans-serif;
+    background-image:url(libro.jpg);
+    background-size:contain;
+        color:rgb(230, 182, 71)
+
+  }
+  
+  header {
+
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+
+  
+  footer {
+    padding: 10px;
+    text-align: center;
+    color:rgb(232, 115, 171);
+    font-size: 30px;
+
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+ 
+  .menu {
+    list-style:circle;
+
+    margin: 2px;
+    padding: 2px;
+    display: flex;
+    background-color: rgb(146, 110, 110);
+  }
+  
+  .menu li {
+   
+    margin-right: 40px;
+    position: relative;
+    background-color:rgb(146, 110, 110)
+
+  }
+  .menu a {
+
+    text-decoration: none;
+    color:rgb(23, 7, 99);
+    display:flow-root;
+    padding: 5px;
+  }
+
+  h1{
+    color:rgb(56, 180, 126);
+    word-spacing:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 40%;
+}
+h2{
+  color:rgb(56, 180, 126);
+    word-spacing:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 25%;
+  font-size: 35Px;
+}
+h3{
+  color:rgb(56, 180, 126);
+    word-spacing:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 25%;
+    font-size: 35Px;
+}
+h4{
+  color:rgb(56, 180, 126);
+    word-spacing:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 25%;
+    font-size: 35Px;
+}
+p{
+    background-position: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    font-size: 22px;
+    text-decoration: wavy;
+}
